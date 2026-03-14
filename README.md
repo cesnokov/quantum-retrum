@@ -18,11 +18,11 @@ The project supports time/date display, temperature reading from the RTC, and fu
 ## Hardware
 
 * Arduino-compatible microcontroller
-* WeAct Studio TM1652 0.8 Digital Tube Module [AliExpress](https://www.aliexpress.com/item/1005007337668399.html)
+* WeAct Studio TM1652 0.8 Digital Tube Module – [AliExpress](https://www.aliexpress.com/item/1005007337668399.html)
 * DS3231 RTC module
 * 3 push buttons
 * TEMT6000 Ambient Light Sensor Module
-* IKEA BEGÅVNING (703.439.38) Glass Dome [IKEA](https://www.ikea.com/lt/lt/p/begavning-stiklinis-gaubtas-su-pagrindu-70343938/)
+* IKEA BEGÅVNING (703.439.38) Glass Dome – [IKEA](https://www.ikea.com/lt/lt/p/begavning-stiklinis-gaubtas-su-pagrindu-70343938/)
 
 ### Pin connections
 
