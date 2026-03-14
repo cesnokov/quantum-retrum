@@ -17,8 +17,6 @@ The project supports time/date display, temperature reading from the RTC, and fu
 
 ## Hardware
 
-Required components:
-
 * Arduino-compatible microcontroller
 * WeAct Studio TM1652 0.8 Digital Tube Module [AliExpress](https://www.aliexpress.com/item/1005007337668399.html)
 * DS3231 RTC module
@@ -47,9 +45,10 @@ Required components:
 | -      | Decrease value / Show Temperature |
 
 
-Libraries used: `adafruit/RTClib` and `Wire`
-The display is controlled directly via `Serial.write()` without additional libraries.
-The TM1652 module operates in **UART mode** and requires odd parity: `Serial.begin(19200, SERIAL_8O1);`.
+
+Libraries used: `adafruit/RTClib` and `Wire`. 
+The display is controlled directly via `Serial.write()` without additional libraries. 
+The TM1652 module operates in **UART mode** and requires odd parity: `Serial.begin(19200, SERIAL_8O1);`. 
 The colon between hours and minutes is implemented using the decimal point of the second digit.
 
 ## License
