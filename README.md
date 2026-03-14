@@ -36,7 +36,7 @@ The project supports time/date display, temperature reading from the RTC, and fu
 | Button "-"   |               | D4      |
 | TEMT6000     |               | A0      |
 
-## Controls
+### Controls
 
 | Button | Function                          |
 | ------ | --------------------------------- |
@@ -44,7 +44,7 @@ The project supports time/date display, temperature reading from the RTC, and fu
 | +      | Increase value / Show Date        |
 | -      | Decrease value / Show Temperature |
 
-
+### Notes
 
 Libraries used: `adafruit/RTClib` and `Wire`. 
 The display is controlled directly via `Serial.write()` without additional libraries. 
